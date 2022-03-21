@@ -1,12 +1,13 @@
-### Part 1
+# Part 1
 - I added key attributes as a serial numbers for all element, as, in the company, they can be used for the accounting. Especially when some elements fail.
-##### Cardinalities
+### Cardinalities
 - One computer can have as many as possible accessories.
 - Laptop can have from 0.2 till 1 TB of memory for the personal documents of an employee (But the company can assume it is too much if it uses the common servers)
 - Component should support a lot of software because it is more convinient to use the same component for the different softwares when it will be more efficient. (e.g. some laptops need more memory, or better video card if it is supposed to develop games)
 - One computer can have 1 or 2 operating systems because sometimes 1 is not enough if (crossplatform apps are developed), but having more than 2 OSs  can lead to decreasing of the efficiency of the computer.
 - Desktop can have as many as possible components
-##### Description of the EERD
+# Part 2
+### Description of the EERD
 The EERD describes the computer systes in the company.
 Namely...
 The company has different **Computers** (they must have certain **operating systems**) which are either **laptops** or **desktops**.
