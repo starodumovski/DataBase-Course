@@ -1,6 +1,6 @@
 ### Exercise 1
 1. **Find the names of suppliers who supply some red part.**
-$\pi_{sname}((\sigma_{color="Red"}(Parts)$ ᛞ $Catalog)$ ᛞ $Suppliers))$
+$$\pi_{sname}((\sigma_{color="Red"}(Parts)$$ ᛞ $$Catalog)$$ ᛞ $$Suppliers))$$
 2. **Find the sids of suppliers who supply some red or green part**
 $\pi_{sid}((\sigma_{color="Red"}(Parts)$U $\sigma_{color="Green"}(Parts))$ ᛞ $Catalog)$
 3. **Find the sids of suppliers who supply some red part or are at 221 Packer Street**
