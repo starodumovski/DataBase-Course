@@ -68,15 +68,19 @@ VALUES (1, 2301, 3786, 3),
 Table **customer**:
 
 ![Lab7_Screens/Table Customer.png](https://github.com/StarDNA681/DataBase-Course/blob/main/week07/Lab7_Screens/Table%20Customer.png)
+
 Table **item**:
 
 ![Lab7_Screens/Table item.png](https://github.com/StarDNA681/DataBase-Course/blob/main/week07/Lab7_Screens/Table%20item.png)
+
 Table **Order**:
 
 ![Lab7_Screens/Table Order.png](https://github.com/StarDNA681/DataBase-Course/blob/main/week07/Lab7_Screens/Table%20Order.png)
+
 Table **common**:
 
 ![Lab7_Screens/Table common.png](https://github.com/StarDNA681/DataBase-Course/blob/main/week07/Lab7_Screens/Table%20common.png)
+
 ___
 ##### Queries for the result table 1
 ___
@@ -237,27 +241,35 @@ INSERT INTO common (s_id, t_id, c_id, r_id, g_id, b_id, loan_date) VALUES
 Table **school**:
 
 ![Lab7_Screens/Table school.png](https://github.com/StarDNA681/DataBase-Course/blob/main/week07/Lab7_Screens/Table%20school.png)
+
 Table **teacher**:
 
 ![Lab7_Screens/Table teacher.png](https://github.com/StarDNA681/DataBase-Course/blob/main/week07/Lab7_Screens/Table%20teacher.png)
+
 Table **grade**:
 
 ![Lab7_Screens/Table grade.png](https://github.com/StarDNA681/DataBase-Course/blob/main/week07/Lab7_Screens/Table%20grade.png)
+
 Table **publisher**:
 
 ![Lab7_Screens/Table publisher.png](https://github.com/StarDNA681/DataBase-Course/blob/main/week07/Lab7_Screens/Table%20publisher.png)
+
 Table **room**:
 
 ![Lab7_Screens/Table room.png](https://github.com/StarDNA681/DataBase-Course/blob/main/week07/Lab7_Screens/Table%20room.png)
+
 Table **book**:
 
 ![Lab7_Screens/Table book.png](https://github.com/StarDNA681/DataBase-Course/blob/main/week07/Lab7_Screens/Table%20book.png)
+
 Table **course**:
 
 ![Lab7_Screens/Table course.png](https://github.com/StarDNA681/DataBase-Course/blob/main/week07/Lab7_Screens/Table%20course.png)
+
 Table **common**:
 
 ![Lab7_Screens/Table common2.png](https://github.com/StarDNA681/DataBase-Course/blob/main/week07/Lab7_Screens/Table%20common2.png)
+
 ___
 ##### Queries for the result table 1
 ___
