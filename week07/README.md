@@ -66,16 +66,16 @@ VALUES (1, 2301, 3786, 3),
 (6, 2303, 3141, 2);
 ```
 Table **customer**:
-![[Lab7_Screens/Table Customer.png]]
+![Lab7_Screens/Table Customer.png](https://github.com/StarDNA681/DataBase-Course/blob/main/week07/Lab7_Screens/Table%20Customer.png)
 Table **item**:
-![[Lab7_Screens/Table item.png]]
+![Lab7_Screens/Table item.png](https://github.com/StarDNA681/DataBase-Course/blob/main/week07/Lab7_Screens/Table%20item.png)
 Table **Order**:
-![[Lab7_Screens/Table Order.png]]
+![Lab7_Screens/Table Order.png](https://github.com/StarDNA681/DataBase-Course/blob/main/week07/Lab7_Screens/Table%20Order.png)
 Table **common**:
-![[Lab7_Screens/Table common.png]]
----
+![Lab7_Screens/Table common.png](https://github.com/StarDNA681/DataBase-Course/blob/main/week07/Lab7_Screens/Table%20common.png)
+___
 ##### Queries for the result table 1
----
+___
 - **Calculate the total number of items per order and the total amount to pay for the order**
 ```sql
 SELECT O.oid, SUM(O.quant) as total_quant, SUM(total) as total_price
@@ -115,7 +115,7 @@ FROM (
 ) cus INNER JOIN customer ON cus.cid = customer.customerid
 ```
 
-![[Lab7_Screens/2nd query 1.png]]
+![Lab7_Screens/2nd query 1.png](https://github.com/StarDNA681/DataBase-Course/blob/main/week07/Lab7_Screens/2nd%20query%201.png)
 
 ---
 ### Exercise 2
@@ -231,21 +231,21 @@ INSERT INTO common (s_id, t_id, c_id, r_id, g_id, b_id, loan_date) VALUES
 (2, 4, 3, 3, 1, 1, '06/05/2010');
 ```
 Table **school**:
-![[Lab7_Screens/Table school.png]]
+![Lab7_Screens/Table school.png](https://github.com/StarDNA681/DataBase-Course/blob/main/week07/Lab7_Screens/Table%20school.png)
 Table **teacher**:
-![[Lab7_Screens/Table teacher.png]]
+![Lab7_Screens/Table teacher.png](https://github.com/StarDNA681/DataBase-Course/blob/main/week07/Lab7_Screens/Table%20teacher.png)
 Table **grade**:
-![[Lab7_Screens/Table grade.png]]
+![Lab7_Screens/Table grade.png](https://github.com/StarDNA681/DataBase-Course/blob/main/week07/Lab7_Screens/Table%20grade.png)
 Table **publisher**:
-![[Lab7_Screens/Table publisher.png]]
+![Lab7_Screens/Table publisher.png](https://github.com/StarDNA681/DataBase-Course/blob/main/week07/Lab7_Screens/Table%20publisher.png)
 Table **room**:
-![[Lab7_Screens/Table room.png]]
+![Lab7_Screens/Table room.png](https://github.com/StarDNA681/DataBase-Course/blob/main/week07/Lab7_Screens/Table%20room.png)
 Table **book**:
-![[Lab7_Screens/Table book.png]]
+![Lab7_Screens/Table book.png](https://github.com/StarDNA681/DataBase-Course/blob/main/week07/Lab7_Screens/Table%20book.png)
 Table **course**:
-![[Lab7_Screens/Table course.png]]
+![Lab7_Screens/Table course.png](https://github.com/StarDNA681/DataBase-Course/blob/main/week07/Lab7_Screens/Table%20course.png)
 Table **common**:
-![[Lab7_Screens/Table common2.png]]
+![Lab7_Screens/Table common2.png](https://github.com/StarDNA681/DataBase-Course/blob/main/week07/Lab7_Screens/Table%20common2.png)
 ___
 ##### Queries for the result table 1
 ___
@@ -255,7 +255,7 @@ SELECT s_id as school, p_id as publisher, COUNT(O.loan_date) as number_of_books
 FROM (common INNER JOIN book ON common.b_id = book.book_id) O
 GROUP BY O.s_id, O.p_id
 ```
-![[Lab7_Screens/1st query 2.png]]
+![Lab7_Screens/1st query 2.png](https://github.com/StarDNA681/DataBase-Course/blob/main/week07/Lab7_Screens/1st%20query%202.png)
 ___
 - **For each school, find the book that has been on loan the longest and the teacher in charge of it**
 ```sql
@@ -269,4 +269,4 @@ INNER JOIN teacher ON V2.t_id = teacher.teacher_id) V3
 INNER JOIN book ON V3.b_id = book.book_id) V4
 INNER JOIN school ON V4.s_id = school.school_id) V5
 ```
-![[Lab7_Screens/2nd query 2.png]]
+![Lab7_Screens/2nd query 2.png](https://github.com/StarDNA681/DataBase-Course/blob/main/week07/Lab7_Screens/2nd%20query%202.png)
