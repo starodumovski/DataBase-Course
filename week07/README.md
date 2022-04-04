@@ -87,7 +87,7 @@ FROM (
 GROUP BY O.oid
 ```
 
-![[Lab7_Screens/1st query.png]]
+![Lab7_Screens/1st query.png](https://github.com/StarDNA681/DataBase-Course/blob/main/week07/Lab7_Screens/1st%20query.png)
 ___
 - **Obtain the customer whose purchase in terms of money has been greater than the others**
 ```sql
