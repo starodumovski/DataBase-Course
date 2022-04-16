@@ -79,13 +79,13 @@ It is the partial result of the our function:
 ![Partial answer](https://github.com/StarDNA681/DataBase-Course/blob/main/week09/Screens_09/Partial%20answer.png)
 
 The whole Table **address** after the calling the function:
-[Address](file:////home/andrew/Desktop/Database_course/week09/exercise_1_function.csv)
+[Address](https://github.com/StarDNA681/DataBase-Course/blob/main/week09/exercise_1_function.csv)
 
 ___
 ## Excercise 2
 ___
 I used the Python code to create the function *retrievecustomers*:
-[Excercise 2](file:////home/andrew/Desktop/Database_course/week09/exercise_2_function.py)
+[Excercise 2](https://github.com/StarDNA681/DataBase-Course/blob/main/week09/python_code/exercise_2_function.py)
 
 The **SQL-query** for function creation is:
 ```sql
@@ -123,19 +123,19 @@ LANGUAGE plpgsql;
 ```sql
 SELECT * FROM retrievecustomers(1,7);
 ```
-![[1-7.png]]
+![1-7](https://github.com/StarDNA681/DataBase-Course/blob/main/week09/Screens_09/1-7.png)
 - **2nd example**
 ```sql
 SELECT * FROM retrievecustomers(60,73);
 ```
-![[60-73.png]]
+![60-73](https://github.com/StarDNA681/DataBase-Course/blob/main/week09/Screens_09/60-73.png)
 - **3rd example - error**
 ```sql
 SELECT * FROM retrievecustomers(90,73);
 ```
-![[start>end.png]]
+![start>end](https://github.com/StarDNA681/DataBase-Course/blob/main/week09/Screens_09/start%3Eend.png)
 - **4th example - error**
 ```sql
 SELECT * FROM retrievecustomers(90,730);
 ```
-![[end>600.png]]
+![end>600](https://github.com/StarDNA681/DataBase-Course/blob/main/week09/Screens_09/end%3E600.png)
