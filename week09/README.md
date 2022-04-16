@@ -4,7 +4,7 @@ ____
 ___
 ###### Code
 - The python code is stored in the folowing file:
-	[Exs](<file:///home/andrew/Desktop/DHAM/address.py>)
+	[Exs](<file:///https://github.com/StarDNA681/DataBase-Course/blob/main/week09/python_code/exercise_1.py>)
 
 Here is the Python-code representation:
 ```python
