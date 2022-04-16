@@ -4,7 +4,7 @@ ____
 ___
 ###### Code
 - The python code is stored in the folowing file:
-[Exs](https://github.com/StarDNA681/DataBase-Course/blob/main/week09/python_code/exercise_1.py)
+[Excercise 1](https://github.com/StarDNA681/DataBase-Course/blob/main/week09/python_code/exercise_1.py)
 
 Here is the Python-code representation:
 ```python
@@ -76,7 +76,7 @@ if __name__ == "__main__":
 
 ###### Result
 It is the partial result of the our function:
-![[Partial answer.png]]
+![[https://github.com/StarDNA681/DataBase-Course/blob/main/week09/Screens_09/Partial%20answer.png]]
 
 The whole Table **address** after the calling the function:
 [Address](file:////home/andrew/Desktop/Database_course/week09/exercise_1_function.csv)
