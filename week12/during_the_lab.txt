@@ -1,0 +1,16 @@
+neo4j@neo4j> create (Neo:Crew {name:'Neo'}), (Morpheus:Crew {name: 'Morpheus'}), (Trinity:Crew {name: 'Trinity'}), (Cypher:Crew:Matrix {name: 'Cypher'}), (Smith:Matrix {name: 'Agent Smith'}), (Architect:Matrix {name:'The Architect'}),
+             (Neo)-[:KNOWS]->(Morpheus), (Neo)-[:LOVES]->(Trinity), (Morpheus)-[:KNOWS]->(Trinity),
+             (Morpheus)-[:KNOWS]->(Cypher), (Cypher)-[:KNOWS]->(Smith), (Smith)-[:CODED_BY]->(Architect);
+0 rows available after 384 ms, consumed after another 0 ms
+Added 6 nodes, Created 6 relationships, Set 6 properties, Added 7 labels
+neo4j@neo4j> match (n:Crew)-[r:KNOWS*]-(m) where n.name='Neo' return n as Neo,r,m
+             ;
++------------------------------------------------------------------------------------------+
+| Neo                   | r                              | m                               |
++------------------------------------------------------------------------------------------+
+| (:Crew {name: "Neo"}) | [[:KNOWS]]                     | (:Crew {name: "Morpheus"})      |
+| (:Crew {name: "Neo"}) | [[:KNOWS], [:KNOWS]]           | (:Crew {name: "Trinity"})       |
+| (:Crew {name: "Neo"}) | [[:KNOWS], [:KNOWS]]           | (:Crew:Matrix {name: "Cypher"}) |
+| (:Crew {name: "Neo"}) | [[:KNOWS], [:KNOWS], [:KNOWS]] | (:Matrix {name: "Agent Smith"}) |
++------------------------------------------------------------------------------------------+
+
